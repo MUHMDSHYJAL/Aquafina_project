@@ -1,0 +1,270 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.logo{
+    margin-right: 8px;
+    width: 148px;
+    margin-bottom: 10px;
+    margin-left: 38px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+nav{
+    padding-left: 229px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    background-color: #0047ba;
+    color: white;
+    display: flex;
+    align-items: end;
+    margin-bottom: -33px;
+    
+}
+
+.imgl img{
+    padding-bottom: 12px;
+    margin-bottom: 7px;
+}
+
+nav ul {
+    display: flex;
+    gap: 52px  ;
+    align-items: center;
+    margin-top: -2px;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    opacity: 0.5s;
+    color: lightblue;
+}
+.sub{
+    padding: 9px 8px;
+    border: 2px solid rgb(106, 163, 255);
+    border-radius: 20px;
+    font-style: italic;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 8%;
+    white-space: nowrap;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.button-small{
+    
+    border: none;
+    color:blue;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px -108px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 9px ;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 10%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-small {
+    color:blue;
+    border: 2px solid #0047ba;
+   
+  }
+  
+  .button-small:hover {
+    background-color: #0047ba;
+    color: white;
+  }
+.line{
+    border-left: 1px solid white;
+    border-width: thin;
+    height: 12px;
+    margin-right: -5px;
+    margin-left: -59px;
+    margin-top: 20px;
+}
+.second{
+    background-image: url('./images/aqf-core-background.png');
+    width: 100%;
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0;
+   
+}.subsecond1 img{
+    width: auto;
+    height: 700px;
+}
+
+.sec-line{
+    border-left: 1px solid white;
+    border-width: thin;
+    height: 12px;
+    margin-right: -5px;
+    margin-left: 79px;
+    margin-top: 20px;
+}
+.subsecond1{
+    margin-left: 80px;
+    
+    
+}
+.subsecond2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 52%;
+    margin-top: -31%;
+    padding-left: 17px
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    width: 982px;
+    margin-left: 230px;
+    height: 250px;
+}
+.footer1 ul, .footer2 ul, .footer3 ul{
+    list-style: none;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+.footer1 li:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+.footer2 li:hover{
+    cursor: pointer;
+    color: lightblue;
+
+}
+.footer3 li:hover{
+    cursor: pointer;
+    color: lightblue;
+
+}
+.footer1 li, .footer2 li, .footer3 li{
+    color: #0047ba;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.logo1{
+    width: 39px;
+    margin-bottom: 11px;
+    margin-left: 359px;
+}
+
+.logo2{
+    width: 35px;
+    margin-left: 9px;
+    margin-bottom: 11px;
+    
+}
+.span{
+    margin-left: 6px;
+    margin-bottom: 19px;
+    opacity: 12;
+}
+.logo1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: lightblue;
+}
+.logo2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: lightblue;
+}
+.s-logo{
+    display: flex;
+    margin-top: 50px;
+    width: 50px;
+    margin-right: 200px;
+}
+.social{
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+.social:hover{
+    color: lightblue;
+    cursor: pointer;
+    opacity: 0.5s;
+}
+
+
+.f-logo{
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    margin-left: 285px;
+}
+.t-logo{
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+}
+.i-logo{
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+}
+.footer-logo{
+    width: 50px;
+    margin-top: 130px;
+}
+.foot-logo{
+    display: flex;
+    width: 28px;
+    height: 28px;
+}
+.bottom-ft{
+    width: 100%;
+    height: 75px;
+}
+.btm-ft{
+    border-top:dashed 1px #d3d3d3;
+}
+.terms{
+    color: #0047ba;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.drop{
+ 
+    margin-bottom: 12px;
+    width: 30px;
+    margin-left: -42px;
+  
+
+}
+.drop:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: lightblue;
+}
